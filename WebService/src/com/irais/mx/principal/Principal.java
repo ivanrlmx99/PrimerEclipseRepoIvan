@@ -10,6 +10,7 @@ public class Principal {
 	public static void main(String[] args) {
 		// TAquí van los comentarios del codigo 
 		Endpoint.publish("http://localhost:1523/ws/ivanmx",new CalculadoraImpl());
+		//Con esta anotacion se muestra en la url del navegador el web services 
 		
 		
 	}
