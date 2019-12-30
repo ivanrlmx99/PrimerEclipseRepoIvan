@@ -32,4 +32,13 @@ public class CalculadoraImpl implements ICalculadora {
 		return resultado;
 	}
 
+	@Override
+	public int potenciaTres(int a) {
+		// TODO Auto-generated method stub
+		int potencia=a*a*a;
+		return potencia;
+	}
+
+	
+
 }
