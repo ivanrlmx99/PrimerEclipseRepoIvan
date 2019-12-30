@@ -9,4 +9,8 @@ public interface ICalculadora {
 
 	@WebMethod
 	public int operacionesBasicas(int opcion,int valor1,int valor2);
+	
+	@WebMethod
+	public int potenciaTres(int a);
+	
 }
