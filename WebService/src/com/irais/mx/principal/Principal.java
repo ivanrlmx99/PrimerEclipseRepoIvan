@@ -11,6 +11,8 @@ public class Principal {
 		// TODO Auto-generated method stub
 
 		Endpoint.publish("http://localhost:1523/ws/ivanmx",new CalculadoraImpl());
+		
+		System.out.printl("Agregué este comentario desde la pagina de git desde internet....");
 	}
 
 }
