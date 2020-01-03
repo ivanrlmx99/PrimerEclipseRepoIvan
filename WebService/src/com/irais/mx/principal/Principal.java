@@ -8,11 +8,11 @@ import com.irais.mx.impl.CalculadoraImpl;
 public class Principal {
 
 	public static void main(String[] args) {
-		// TAquí van los comentarios del codigo 
-		Endpoint.publish("http://localhost:1523/ws/ivanmx",new CalculadoraImpl());
+		
+		Endpoint.publish("http://localhost:1513/ws/ivanmx",new CalculadoraImpl());
 
 		
-		System.out.println("AgreguÃ© este comentario desde la pagina de git desde internet....");
+		
 
 	}
 

@@ -13,4 +13,6 @@ public interface ICalculadora {
 	@WebMethod
 	public int potenciaTres(int a);
 	
+	
+	
 }
