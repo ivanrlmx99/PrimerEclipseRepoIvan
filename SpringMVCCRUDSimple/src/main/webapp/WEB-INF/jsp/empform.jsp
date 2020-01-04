@@ -6,15 +6,15 @@
       	<table >  
          <tr>  
           <td>Name : </td> 
-          <td><form:input path="name"  /></td>
+          <td><form:input path="name" type="text" name="name" required="name"/></td>
          </tr>  
          <tr>  
           <td>Salary :</td>  
-          <td><form:input path="salary" /></td>
+          <td><form:input path="salary"  type="text" name="salary" required="salary"/></td>
          </tr> 
          <tr>  
           <td>Designation :</td>  
-          <td><form:input path="designation" /></td>
+          <td><form:input path="designation" type="text" name="designation" required="designation"/></td>
          </tr> 
          <tr>  
           <td> </td>  
